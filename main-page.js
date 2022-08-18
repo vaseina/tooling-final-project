@@ -4,7 +4,7 @@ console.log(projectCards);
 const exampleCard = projectCards[0];
 console.log(exampleCard);
 
-const baseURL = './bim-model.html';
+const baseURL = './bim-model/bim-model.html';
 
 import { projects } from "./projects.js";
 
