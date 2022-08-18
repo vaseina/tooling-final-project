@@ -12,4 +12,16 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
+// import { projects } from "./projects.js";
+
+// const currentUrl = window.location.href; 
+// const url = new URL(currentUrl);
+// const currentProjectID = url.searchParams.get("id");
+// const currentProject = projects.find(project => 
+//     project.id === currentProjectID);
+
+// const projectLink = currentProject.url;
+
+// loadIfc(projectLink);
+
 loadIfc('./ifc/01.ifc');
